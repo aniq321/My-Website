@@ -1,0 +1,77 @@
+
+html{
+    scroll-behavior: smooth;
+}
+.search{
+  margin-left: 520px;
+}
+
+img{
+    width: 100%;
+    height: 800px;
+}
+.container {
+    position: relative;
+    text-align: center;
+  }
+  .centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+  } 
+  .main2{
+      background-image: url(image/zzz.jpg);
+      height: 1800px;
+  }
+  .servicesText.card {
+    height: 280px;
+    cursor: pointer;
+  }
+.servicesIcon {
+    font-size: 36px;
+    text-align: center;
+    width: 100%;
+}
+.card-title {
+    text-align: center;
+}
+.card:hover .servicesIcon {
+    color: #000000;
+}
+.servicesText:hover {
+    border: 1px solid #000000;
+}
+#footer {
+    background-image: url(image/zzz.jpg);
+    text-align: center;
+}
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+  }
+  .fa:hover {
+      opacity: 0.9;
+      color: white;
+  }
+  .fa-whatsapp{
+    background: #36b816;
+    color: white;
+  }
+  .fa-facebook {
+    background: #3B5998;
+    color: white;
+  }
+  .fa-twitter {
+    background: #55ACEE;
+    color: white;
+  }
+  .fa-instagram {
+    background: #9123bd;
+    color: white;
+  }
